@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My web page | Adding photos</title>
+	</head>
+	<body>
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg" />
+		<img src="https://s3.amazonaws.com/codecademy-blog/assets/ninja_zpsa5dbe37a.jpg" />
+		<img src="http://www.spacex.com/sites/all/themes/spacex2012/images/falcon9/falcon9-render.png" />
+	</body>
+</html>
