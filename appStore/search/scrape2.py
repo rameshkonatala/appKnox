@@ -17,6 +17,7 @@ def add_appinfo(app,app_name,app_id,developer,developer_mailid,icon_url):
 	i.developer=developer
 	i.developer_mailid=developer_mailid
 	i.icon_url=icon_url
+	i.save()
 	return i
 
 def populate(query):
