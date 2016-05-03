@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apps</title>
+</head>
+<body>
+	{% if searchquery %}
+	<ul>
+		{% for query in searchquery %}
+		<li>{{query.app_name}}</li>
+		{% endfor %}
+	</ul>
+	{% else %}
+		<strong>No apps for search category</strong>
+	{% endif %}
+
+</body>
+</html>
