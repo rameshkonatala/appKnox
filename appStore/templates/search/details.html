@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Details</title>
+</head>
+<body>
+	{% if app %}
+	<ul>{{app.name}}</ul>
+	<ul>{{app.url}}</ul>
+	<ul>{{app.developer}}</ul>
+	<ul>{{app.developer_mailid}}</ul>
+	<ul>{{app.icon_url}}</ul>
+	{% else %}
+		<strong>No details for the app</strong>
+	{% endif %}
+
+</body>
+</html>

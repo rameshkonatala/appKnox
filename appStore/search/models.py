@@ -17,8 +17,8 @@ class SearchQuery(models.Model):
 
 class AppInfo(models.Model):
 	searchquery=models.ForeignKey(SearchQuery)
-	app_name=models.CharField(max_length=100)
-	app_id=models.CharField(max_length=100)
+	name=models.CharField(max_length=100)
+	url=models.CharField(max_length=100)
 	developer=models.CharField(max_length=100)
 	developer_mailid=models.EmailField()
 	icon_url=models.URLField()

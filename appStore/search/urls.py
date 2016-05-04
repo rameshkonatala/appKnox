@@ -3,5 +3,6 @@ from search import views
 
 urlpatterns=patterns('',
 	url(r'^$',views.search,name='search'),
-	url(r'^search/(?P<searchquery_query_slug>[\w\-]+)/$',views.results,name='results'),
+	url(r'^(?P<searchquery_query_slug>[\w\-]+)/$',views.results,name='results'),
+	url(r'^(?P<app_url>[\w\-]+)/$',views.details,name='details'),
 	)
